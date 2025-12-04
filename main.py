@@ -8,9 +8,10 @@ def main():
     pascal.main()
     print("terms")
     terms.main()
-    print("Запуск perfection")
+    print("perfection")
     perfection.main()
-    print("Запуск euclid")
+    print("euclid")
     euclid.main()
 if __name__ == "__main__":
+
     main()
