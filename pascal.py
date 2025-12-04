@@ -7,12 +7,13 @@ def pascal_triangle(n):
     return triangle + [new_row]
 
 def main():
-    first = int(input("Введите количество строк треугольника Паскаля: "))
+    first = int(input("колво строк"))
     triangle = pascal_triangle(first)
 
-    print("Треугольник Паскаля:")
+    print("треугольник:")
     for row in triangle:
         print(row)
 
 if __name__ == "__main__":
     main()
+
